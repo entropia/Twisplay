@@ -1,7 +1,7 @@
 # Twisplay
-Hardware by [Timo Widdau](https://github.com/twiddau)  
+Hardware by [Timo Widdau](https://github.com/twiddau) and [Peter Brantsch](https://github.com/brantsch)  
 Original code by [Peter Brantsch](https://github.com/brantsch)  
-Bugfixes by [GityUpNow](https://github.com/gityupnow)  
+Bugfixes and documentation by [GityUpNow](https://github.com/gityupnow)  
   
 ## Hardware
 The used display is a Epson DM-D110. Any compatible dipslay should be fine.  
