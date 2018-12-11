@@ -6,4 +6,5 @@ station_config = {}
 station_config.ssid = "<enter AP name here>"
 station_config.pwd  = "<enter Wifi Password here>"
 
+wifi.sta.sethostname("twisplay")
 wifi.sta.config(station_config)
