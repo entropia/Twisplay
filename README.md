@@ -18,5 +18,16 @@ Examples would be [NodeMCU-Tool](https://github.com/AndiDittrich/NodeMCU-Tool)(c
 
 **Congratulations, you now have a running Twisplay!**
 
+## Use
+The display simply prints everything it gets via the tcp-socket!
+
+The easiest way of doing this(under Linux) is to simple use netcat.   
+Simply pipe the desired text into netcat like this:  
+`echo "<Text>" | nc <IP> <Port>`  
+or when printing from a file:  
+`cat <Filename> | nc <IP> <Port>`   
+  
+You can also send special control codes to the display like "clear" or "cursor off". Please consult the display-documentation for these.
+
 ## Command Documentation
 https://download.delfi.com/SupportDL/Epson/Manuals/DM-D110%20Display/Display%20Programming%20guide.pdf
