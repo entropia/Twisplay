@@ -1,7 +1,7 @@
 # Twisplay
 Hardware by [Timo Widdau](https://github.com/twiddau)  
-Original code by [Peter Brantsch](https://github.com/brantsch)  
-Bugfixes by [GityUpNow](https://github.com/gityupnow)  
+Hardware and original code by [Peter Brantsch](https://github.com/brantsch)  
+Bugfixes, addiotional features and documentation by [GityUpNow](https://github.com/gityupnow)  
   
 ## Hardware
 The used display is a Epson DM-D110. Any compatible dipslay should be fine.  
@@ -17,3 +17,6 @@ Examples would be [NodeMCU-Tool](https://github.com/AndiDittrich/NodeMCU-Tool)(c
 1. Upload the init.lua to the ESP
 
 **Congratulations, you now have a running Twisplay!**
+
+## Command Documentation
+https://download.delfi.com/SupportDL/Epson/Manuals/DM-D110%20Display/Display%20Programming%20guide.pdf
