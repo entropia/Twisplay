@@ -2,6 +2,8 @@
 COMM_INIT = "\27@"
 COMM_CLR = "\12"
 COMM_HOM = "\11"
+COMM_CSR_OFF = "\31\67\00"
+COMM_CSR_ON = "\31\67\01"
 
 --Constants
 PORT = 2342
@@ -12,6 +14,7 @@ first_msg = true
 
 function info(ip, port)
   uart.write(0, COMM_CLR)
+  uart.write(0, COMM_CSR_OFF)
   
   local sIP = "IP" 
   local sPORT = "PORT"
@@ -39,6 +42,7 @@ function init()
       if first_msg then
         first_msg = false
         uart.write(0, COMM_CLR)
+	uart.write(0, COMM_CSR_ON)
       end
       
       uart.write(0, l)
